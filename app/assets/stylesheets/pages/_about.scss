@@ -1,0 +1,11 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: black;
+  background-image: url('./foto-about.jpg');
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed
+}

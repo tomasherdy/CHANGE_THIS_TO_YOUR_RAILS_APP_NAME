@@ -1,9 +1,16 @@
-<div class="topnav">
-<div class="container">
-  <a class="active"> <i class="fa-sharp fa-solid fa-house"></i> Home</a>
-  <a href="#news"><i class="fa-solid fa-calendar-days"></i> Agenda</a>
-  <%= image_tag("thaled-logo-02.png", size: "250x80", :alt => "rss feed")%>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contato</a>
-  <a href="#about" ><i class="fa-solid fa-music"></i></i> Plataformas</a>
-</div>
-</div>
+<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><%= image_tag("thaled-logo-02.png", size: "250x80", :alt => "rss feed")%></label>
+		<ul>
+			<li><a href="#news"><i class="fa-solid fa-calendar-days"></i> Agenda</a></li>
+			<li> <a href="#"><i class="fa fa-fw fa-envelope"></i> Contato</a></li>
+		  <li><a href="https://open.spotify.com/artist/0QEPY1pWVJLE2G4SOdYyGw" ><i class="fa-brands fa-spotify"></i> Spotify</a></li>
+      <li> <a href="https://www.youtube.com/channel/UCJUJezR_nKgRjCkTiLV48cA" ><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+			<li><a href="https://soundcloud.com/thaled-293327495" ><i class="fa-brands fa-soundcloud"></i> SoundCloud</a></li>
+        </ul>
+		</ul>
+	</nav>
+

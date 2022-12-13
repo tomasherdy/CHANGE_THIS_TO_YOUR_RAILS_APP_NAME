@@ -1,3 +1,11 @@
-home {
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
   background-color: black;
+  background-image: url('./foto-fundo-pb.JPG');
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed
 }
