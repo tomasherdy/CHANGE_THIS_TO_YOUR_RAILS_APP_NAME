@@ -1,23 +1,19 @@
-.banner {
-  background-image: url("/assets/foto-fundo-pb.JPG");
+#banner-front {
+  background-image: url('foto-fundo-pb.JPG');
+  width: 80vw;
+  background-color: red;
+  height: 85%;
+  padding: 2vw;
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 2vw;
 }
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+.botao-home{
+  display: flex;
+  text-align: center;
 }
 
 .button {
@@ -27,15 +23,14 @@
   border: none;
   color: #eeeeee;
   cursor: pointer;
-  display: inline-block;
   font-family: sans-serif;
   font-size: 20px;
-  padding: 5px 15px;
-  text-align: center;
+  padding: 5px 10px;
   text-decoration: none;
-  position: relative;
-  top:69%;
-  margin: 10px;
+  margin: 20px;
+  margin-bottom: 2vw;
+  display: flex;
+  text-align: center;
 }
 @keyframes glowing {
   0% {
